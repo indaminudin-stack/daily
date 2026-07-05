@@ -1,4 +1,4 @@
-name: IDX Scanner Bot
+name: Scanner
 
 on:
   schedule:
