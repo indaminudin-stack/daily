@@ -3,8 +3,9 @@ from modules.selector import rank_top50
 from modules.intraday import rank_top10
 from modules.notifier import send_telegram
 
-TOKEN = "8698232598:AAENfKnXvBo3tA3Z52IGf1r7Ylnv0cKhShc"
-CHAT_ID = "8876505556"
+import os
+TOKEN = os.environ["TOKEN"]
+CHAT_ID = os.environ["CHAT_ID"]
 
 
 def run_top50():
