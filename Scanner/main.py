@@ -1,0 +1,1 @@
+print("IDX Scanner Ready")
