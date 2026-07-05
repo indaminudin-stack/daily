@@ -2,9 +2,9 @@ name: IDX Scanner Bot
 
 on:
   schedule:
-    - cron: '18 11 * * 0-6'
-    - cron: '20 11 * * 0-6'
-    - cron: '22 11 * * 0-6'
+    - cron: '39 11 * * 0-6'
+    - cron: '45 11 * * 0-6'
+    - cron: '50 11 * * 0-6'
   workflow_dispatch:
 
 jobs:
