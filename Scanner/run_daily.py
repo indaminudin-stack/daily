@@ -44,10 +44,11 @@ def run_top10():
 if __name__ == "__main__":
     import sys
 
-    if sys.argv[1] == "top50":
-        run_top50()
+    mode = sys.argv[1] if len(sys.argv) > 1 else "top50"
 
-    elif sys.argv[1] == "top10":
+    if mode == "top50":
+        run_top50()
+    elif mode == "top10":
         run_top10()
 
 
