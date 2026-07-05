@@ -29,4 +29,4 @@ jobs:
         env:
           TOKEN: ${{ secrets.TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
-        run: python run_daily.py all
+        run: python run_daily.py
