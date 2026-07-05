@@ -21,7 +21,7 @@ jobs:
         python-version: '3.10'
 
     - name: Install dependencies
-      run: pip install -r Scanner/requirements.txt
+      run: pip install -r daily/Scanner/requirements.txt
 
     - name: Run bot
       env:
